@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+     # skip_before_action :set_current_user, only: [:logout]
 
      def create 
           user = User
